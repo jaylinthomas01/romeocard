@@ -1,46 +1,41 @@
-body {
-  font-family: 'Arial', sans-serif;
-  background: #0f0f0f;
-  color: #ffffff;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaylin Thomas</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <div class="theme-toggle">
+    <input type="checkbox" id="toggle" onclick="document.body.classList.toggle('light')">
+    <label for="toggle">☀️ / 🌙</label>
+  </div>
 
-.container {
-  padding: 50px 20px;
-}
+  <div class="container">
+    <img src="your-photo.jpg" alt="Jaylin Thomas" class="avatar">
+    <h1>Jaylin Thomas</h1>
+    <p class="tagline">Tech Tinkerer • Creator of RomeoOS</p>
+    <p class="bio">I build things that think, flex, and sometimes sass you back. Tap in.</p>
 
-.avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
+    <div class="buttons">
+      <a href="tel:+1-445-444-0759" title="Call"><i class="fa fa-phone"></i></a>
+      <a href="mailto:jaylin@example.com" title="Email"><i class="fa fa-envelope"></i></a>
+      <a href="https://github.com/jaylinthomas01" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/jaylinthomas" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+      <a href="contact.vcf" download title="Save Contact"><i class="fa fa-address-card"></i></a>
+    </div>
+  </div>
 
-h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
+  <footer>
+    <p>Made with ❤️ by RomeoOS • <span id="year"></span></p>
+  </footer>
 
-p {
-  font-size: 16px;
-  margin-bottom: 30px;
-  color: #aaa;
-}
-
-.buttons a {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 20px;
-  background-color: #1f1f1f;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s;
-}
-
-.buttons a:hover {
-  background-color: #333;
-}
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="https://use.fontawesome.com/releases/v6.5.0/js/all.js" crossorigin="anonymous"></script>
+</body>
+</html>
