@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Thomas;Jaylin;;;
+FN:Jaylin Thomas
+ORG:RomeoOS
+TITLE:Tech Tinkerer & AI Whisperer
+TEL;TYPE=cell:+1-555-555-5555
+EMAIL:jaylin@example.com
+URL:https://jaylinthomas01.github.io/romeocard
+END:VCARD
