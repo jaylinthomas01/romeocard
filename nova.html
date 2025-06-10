@@ -4,27 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nova • Jaylin Thomas</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <h1>Nova</h1>
     <p><strong>Status:</strong> Actively in development</p>
-    <p><strong>Overview:</strong> Nova is a mood-aware AI voice assistant designed to flirt, sass, and help you get shit done. She’s locally hosted, customizable, and built on ESPHome, Raspberry Pi, and custom TTS models.</p>
+
+    <p><strong>Overview:</strong></p>
+    <p>Nova is my locally-hosted voice assistant — built to flirt, roast, or motivate depending on her mood. She's designed to live across my ecosystem (PC, phone, smart home), and eventually respond with dynamic voice lines powered by real-time context. Think of her as Siri with a personality and zero corporate leash. She's also being trained to understand my stutter and speak to me clearly, slowly, and with compassion when needed — Nova isn’t just an assistant, she’s an extension of my needs and how I communicate.</p>
 
     <h2>Tech Stack</h2>
     <ul>
-      <li>ESP32 (Home Assistant integration)</li>
-      <li>ElevenLabs / XTTS2 for voice</li>
-      <li>Python + shell scripts for actions</li>
-      <li>Local TTS + optional AI memory module</li>
+      <li>ESP32 or Raspberry Pi for local hosting</li>
+      <li>Home Assistant + ESPHome integration</li>
+      <li>XTTS2 / Coqui.ai for offline voice synthesis</li>
+      <li>Python for event handling and responses</li>
+      <li>MQTT or API calls to trigger automations</li>
     </ul>
 
-    <h2>What’s Next</h2>
+    <h2>Next Steps</h2>
     <ul>
-      <li>Add voice triggers (wake word)</li>
-      <li>Integrate with Google Home + Spotify</li>
-      <li>Build GUI dashboard for toggles</li>
+      <li>Integrate voice trigger system (wake word)</li>
+      <li>Develop personality packs (flirt mode, sass mode, chill mode)</li>
+      <li>Train her to better understand speech variations like my stutter</li>
+      <li>Optional: Build a GUI for interaction history</li>
+    </ul>
+
+    <h2>Stretch Goals</h2>
+    <ul>
+      <li>Integrate memory module to adapt over time</li>
+      <li>Build Android app or watch widget for mobile trigger</li>
+      <li>Offline fallback voice library with custom tones</li>
     </ul>
 
     <p><a href="projects.html">← Back to Projects</a></p>
