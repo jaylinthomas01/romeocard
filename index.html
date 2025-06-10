@@ -4,20 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jaylin Thomas</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
-  <div class="container">
-    <img src="1747511226000.jpeg" alt="Jaylin Thomas" class="avatar">
-    <h1>Jaylin Thomas</h1>
-    <p>Tech Tinkerer • Creator of RomeoOS</p>
-    <div class="buttons">
-      <a href="tel:+1-445-444-0759">Call</a>
-      <a href="mailto:jaylinthomas01@gmail.com">Email</a>
-      <a href="https://github.com/jaylinthomas01" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/jaylinthomas" target="_blank">LinkedIn</a>
-      <a href="contact.vcf" download>Save Contact</a>
-    </div>
+  <div class="theme-toggle">
+    <input type="checkbox" id="toggle" onclick="document.body.classList.toggle('light')">
+    <label for="toggle">☀️ / 🌙</label>
   </div>
+
+  <div class="container">
+    <img src="your-photo.jpg" alt="Jaylin Thomas" class="avatar">
+    <h1>Jaylin Thomas</h1>
+    <p class="tagline">Tech Tinkerer • Creator of RomeoOS</p>
+    <p class="bio">I build things that think, flex, and sometimes sass you back. Tap in.</p>
+
+    <div class="buttons">
+      <a href="tel:+1-445-444-0759" title="Call"><i class="fa fa-phone"></i></a>
+      <a href="mailto:jaylin@example.com" title="Email"><i class="fa fa-envelope"></i></a>
+      <a href="https://github.com/jaylinthomas01" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/jaylinthomas" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/jaylinthomas" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a>
+      <a href="contact.vcf" download title="Save Contact"><i class="fa fa-address-card"></i></a>
+    </div>
+
+    <h2>Current Projects</h2>
+    <ul class="projects">
+      <li><strong>Nova:</strong> Voice assistant with mood-based responses. Sass included.</li>
+      <li><strong>RomeoOS:</strong> My personal operating system. Currently a hybrid of tools, interfaces, and experiments.</li>
+      <li><strong>Rep Counter:</strong> ESP32 motion sensor build to track workout reps. Bluetooth coming soon.</li>
+      <li><strong>NFC Music Node:</strong> ESP32 + PN532 project that plays Spotify playlists on tap.</li>
+      <li><strong>Microsite:</strong> This website — tap-triggered via NFC and self-hosted on GitHub Pages.</li>
+    </ul>
+    <p style="margin-top: 20px;"><a href="#" title="Coming soon">More details coming soon →</a></p>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ by RomeoOS • <span id="year"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="https://use.fontawesome.com/releases/v6.5.0/js/all.js" crossorigin="anonymous"></script>
 </body>
 </html>
