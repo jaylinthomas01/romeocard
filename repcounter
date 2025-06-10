@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rep Counter • Jaylin Thomas</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rep Counter</h1>
+    <p><strong>Status:</strong> Functional prototype, polish in progress</p>
+
+    <p><strong>Overview:</strong></p>
+    <p>This project is a motion-based rep counter built using an ESP32 microcontroller and an MPU6050 sensor. It detects reps during workouts like push-ups, dumbbell curls, or glute bridges and displays the count on an LCD screen. Eventually, it will sync to a mobile app or dashboard for progress tracking and performance feedback.</p>
+
+    <h2>Tech Stack</h2>
+    <ul>
+      <li>ESP32 microcontroller</li>
+      <li>MPU6050 6-axis motion sensor (accelerometer + gyroscope)</li>
+      <li>LCD screen module for display</li>
+      <li>Arduino C++ for logic and filtering</li>
+      <li>3D-printed case for housing</li>
+    </ul>
+
+    <h2>Next Steps</h2>
+    <ul>
+      <li>Improve motion filtering for accuracy (reduce false counts)</li>
+      <li>Implement Bluetooth for mobile syncing</li>
+      <li>Allow exercise-specific presets (glute bridges vs curls vs push-ups)</li>
+    </ul>
+
+    <h2>Stretch Goals</h2>
+    <ul>
+      <li>Companion app with rep history and streaks</li>
+      <li>Battery-powered version with charging status LED</li>
+      <li>Voice feedback through speaker or connected assistant</li>
+    </ul>
+
+    <p><a href="projects.html">← Back to Projects</a></p>
+  </div>
+</body>
+</html>
