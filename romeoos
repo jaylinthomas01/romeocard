@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RomeoOS • Jaylin Thomas</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>RomeoOS</h1>
+    <p><strong>Status:</strong> Core architecture in progress</p>
+
+    <p><strong>Overview:</strong></p>
+    <p>RomeoOS is my long-term dream: a modular, personally-owned operating system that reflects how I work, think, and create. It’s being designed from the ground up to prioritize personal freedom, digital privacy, and full creative expression. Whether I’m booting up Nova, running smart home commands, or building new tools — this is the system behind it all.</p>
+
+    <h2>Vision</h2>
+    <ul>
+      <li>Custom desktop interface tailored for creativity and command-line control</li>
+      <li>Locally-hosted cloud services and encrypted storage</li>
+      <li>Modular design that adapts to future needs (media, dev tools, smart home)</li>
+      <li>Eventually powered by my own custom kernel (or deeply modified Linux)</li>
+    </ul>
+
+    <h2>Currently Includes</h2>
+    <ul>
+      <li>Virtual machine environment for prototyping</li>
+      <li>Core folder structure for OS components</li>
+      <li>Basic Home Assistant integrations</li>
+      <li>Custom terminal aliases and shell scripts</li>
+    </ul>
+
+    <h2>Next Steps</h2>
+    <ul>
+      <li>Refine kernel research using OSTEP</li>
+      <li>Begin building out bootloader concept</li>
+      <li>Design the RomeoOS UI theme</li>
+      <li>Document architecture for GitHub transparency</li>
+    </ul>
+
+    <h2>Stretch Goals</h2>
+    <ul>
+      <li>Make it installable on hardware (old laptop or Raspberry Pi)</li>
+      <li>Package Nova and other assistants as built-in modules</li>
+      <li>Explore local AI/ML integrations (search, suggestion engine, etc.)</li>
+    </ul>
+
+    <p><a href="projects.html">← Back to Projects</a></p>
+  </div>
+</body>
+</html>
