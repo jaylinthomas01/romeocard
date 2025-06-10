@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFC Music Node • Jaylin Thomas</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>NFC Music Node</h1>
+    <p><strong>Status:</strong> Fully functional, next: enclosure + refinements</p>
+
+    <p><strong>Overview:</strong></p>
+    <p>This build uses an ESP32 and a PN532 NFC reader to trigger Spotify playlists or tracks through Home Assistant. When an NFC tag is scanned, it sends the associated UID to Home Assistant via ESPHome, which triggers playback using my Echo Dot as the media target. Perfect for curated music vibes — tap to play, no app required.</p>
+
+    <h2>Tech Stack</h2>
+    <ul>
+      <li>ESP32 microcontroller (USB-powered)</li>
+      <li>PN532 NFC reader via I2C</li>
+      <li>Home Assistant + ESPHome YAML triggers</li>
+      <li>Spotify + Echo Dot media integration</li>
+      <li>Classic and Ultralight NFC tags</li>
+    </ul>
+
+    <h2>Current Features</h2>
+    <ul>
+      <li>Unique tag UIDs linked to Spotify playlists</li>
+      <li>Shuffle logic and fallback content types</li>
+      <li>Auto selects correct media player before playback</li>
+      <li>Unrecognized tags logged for easy expansion</li>
+    </ul>
+
+    <h2>Next Steps</h2>
+    <ul>
+      <li>3D-printed enclosure for protection + style</li>
+      <li>Solder components onto a perfboard</li>
+      <li>Add LED indicator for tag recognition feedback</li>
+    </ul>
+
+    <h2>Stretch Goals</h2>
+    <ul>
+      <li>Multi-room audio trigger support</li>
+      <li>Offline playback for pre-synced music</li>
+      <li>Physical switch for mode toggling (e.g. genre preset)</li>
+    </ul>
+
+    <p><a href="projects.html">← Back to Projects</a></p>
+  </div>
+</body>
+</html>
